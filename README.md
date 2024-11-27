@@ -52,7 +52,6 @@ python test_multi.py --checkpoint /path/to/checkpoint --data_folder /path/to/dat
 
 #### Segmentation & Depth Estimation:
 ```
-cd pt_fusion
 python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dataset
 ```
 
