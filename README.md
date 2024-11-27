@@ -40,23 +40,27 @@ git clone https://github.com/mohammedsalah98/pt_fusion.git
 cd pt_fusion
 conda env create -f environment.yml
 conda activate pt_fusion
+```
 
 ### Step 2: Running the testing code:
 
-- Multi-Class Segmentation:
+#### Multi-Class Segmentation:
 ```
 cd pt_fusion
 python test_multi.py --checkpoint /path/to/checkpoint --data_folder /path/to/dataset
 ```
 
-- Multi-Class Segmentation:
+#### Segmentation & Depth Estimation:
 ```
 cd pt_fusion
 python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dataset
 ```
+
 #### Parameters:
-- ``--checkpoint``:
-- ``--data_folder``:
+```
+- ``--checkpoint``: Path to downloaded checkpoint
+- ``--data_folder``: Path to dataset
+```
 
 ## Disclaimer
 We will soon release a code for benchmarks against state-of-the-art models.
