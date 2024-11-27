@@ -19,7 +19,7 @@ If you use this code in an academic context please cite this publication:
 ```
 
 ## Code Structure and ECam_ACircles Dataset Outline:
-![Alt text](https://github.com/mohammedsalah98/E_Calib/blob/master/ECam_ACircles.png)
+![Alt text](https://github.com/mohammedsalah98/pt_fusion/blob/master/dataset.png)
 
 ## Supported platforms
 
