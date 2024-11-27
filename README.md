@@ -29,8 +29,9 @@ Tested on the following platforms:
 
 ## Prerequisites
 You need the model checkpoints and dataset to be in your working directory:
+
 [Checkpoints](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
-[Dataset](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
+[Testing Dataset](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
 
 ## Running the code
 ### Step 1: Create a conda environment
@@ -42,7 +43,7 @@ conda env create -f environment.yml
 conda activate pt_fusion
 ```
 
-### Step 2: Running the testing code:
+### Step 2: Running the code:
 
 #### Multi-Class Segmentation:
 ```
@@ -53,6 +54,13 @@ python test_multi.py --checkpoint /path/to/checkpoint --data_folder /path/to/dat
 #### Segmentation & Depth Estimation:
 ```
 python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dataset
+```
+
+#### Training:
+[Training Dataset](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
+```
+python train_segmentation.py --data_folder /path/to/dataset
+python train_depth.py --data_folder /path/to/dataset
 ```
 
 #### Parameters:
