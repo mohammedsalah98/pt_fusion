@@ -5,7 +5,7 @@ from utils.models import *
 from torch.utils.data import DataLoader
 from utils.datasets import *
 from utils.dataloaders import *
-from utils.training_variables import *
+from utils.testing_variables import *
 import warnings
 
 warnings.filterwarnings("ignore")

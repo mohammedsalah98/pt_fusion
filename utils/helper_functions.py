@@ -2,7 +2,7 @@ import random
 import torchvision.transforms.functional as TF
 from torchvision.transforms import RandomCrop
 import torch
-from utils.training_variables import *
+from utils.testing_variables import *
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

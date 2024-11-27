@@ -1,5 +1,5 @@
 import torch
-from utils.training_variables import *
+from utils.testing_variables import *
 from utils.helper_functions import *
 
 def collate_PCA_TSR_Fusion_MultiClass(batch, transform=True):

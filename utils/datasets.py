@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import Dataset
 import os
 import cv2
-from utils.training_variables import *
+from utils.testing_variables import *
 import random
 
 class irtpvc(Dataset):
