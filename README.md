@@ -19,7 +19,7 @@ If you use this code in an academic context please cite this publication:
 ```
 
 ## Code Structure and ECam_ACircles Dataset Outline:
-![Alt text](https://github.com/mohammedsalah98/pt_fusion/blob/master/dataset.png)
+![Alt text](https://github.com/mohammedsalah98/pt_fusion/tree/master/dataset.png)
 
 ## Supported platforms
 
