@@ -29,8 +29,8 @@ Tested on the following platforms:
 
 ## Prerequisites
 You need the model checkpoints and dataset to be in your working directory:
-[Checkpoints]()
-[Dataset]()
+[Checkpoints](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
+[Dataset](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
 
 ## Running the code
 ### Step 1: Create a conda environment
