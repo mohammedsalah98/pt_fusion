@@ -59,6 +59,7 @@ python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dat
 #### Parameters:
 - ``--checkpoint``: Path to downloaded checkpoint
 - ``--data_folder``: Path to dataset
+
 For example, if you place the checkpoint in the checkpoints folder and the dataset in pt_fusion directory, the command should look like this:
 ```
 python test_depth.py --checkpoint checkpoints/attention_fusionUnet_depth.pth --data_folder dataset/
