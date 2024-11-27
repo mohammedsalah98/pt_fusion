@@ -1,4 +1,4 @@
-name: ndt_fusion
+name: pt_fusion
 channels:
   - anaconda
   - pytorch
@@ -166,4 +166,3 @@ dependencies:
       - torchaudio==2.4.1
       - torchmetrics==1.5.1
       - torchvision==0.19.1
-prefix: C:\Users\ku_nd\anaconda3\envs\ndt_fusion
