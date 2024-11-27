@@ -56,16 +56,16 @@ python test_multi.py --checkpoint /path/to/checkpoint --data_folder /path/to/dat
 python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dataset
 ```
 
+#### Parameters:
+- ``--checkpoint``: Path to downloaded checkpoint
+- ``--data_folder``: Path to dataset
+
 #### Training:
 [Training Dataset](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
 ```
 python train_segmentation.py --data_folder /path/to/dataset
 python train_depth.py --data_folder /path/to/dataset
 ```
-
-#### Parameters:
-- ``--checkpoint``: Path to downloaded checkpoint
-- ``--data_folder``: Path to dataset
 
 For example, if you place the checkpoint in the checkpoints folder and the dataset in pt_fusion directory, the command should look like this:
 ```
