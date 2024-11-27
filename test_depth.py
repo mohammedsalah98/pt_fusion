@@ -12,6 +12,7 @@ warnings.filterwarnings("ignore")
 torch.set_printoptions(sci_mode=False) 
 
 model = att_UNetMultiModal_depth_MultiClass(in_channels_pca=10, in_channels_tsr=5, num_classes=6)
+criterion = nn.L1Loss()
 
 checkpoint = torch.load('checkpoints/attention_fusionUnet_depth.pth')
 model.load_state_dict(checkpoint['model_state_dict'])
