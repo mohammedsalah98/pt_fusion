@@ -12,7 +12,6 @@ warnings.filterwarnings("ignore")
 model = att_UNetMultiModal_MultiClass(in_channels_pca=10, in_channels_tsr=5, num_classes=6)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=5e-4)
-weighing_factor = 0.5
 num_epochs = 30
 batch_size = 8
 
