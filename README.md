@@ -57,10 +57,8 @@ python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dat
 ```
 
 #### Parameters:
-```
 - ``--checkpoint``: Path to downloaded checkpoint
 - ``--data_folder``: Path to dataset
-```
 
 ## Disclaimer
 We will soon release a code for benchmarks against state-of-the-art models.
