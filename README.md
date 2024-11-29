@@ -1,7 +1,7 @@
 # PT-Fusion
 ## A Multi-Modal Attention Network for Segmentation and Depth Estimation of Subsurface Defects in Pulse Thermography
 
-[![PT-Fusion:](https://github.com/mohammedsalah98/E_Calib/blob/master/video_thumbnail.png)](https://youtu.be/4giQn6rt-48)
+[![PT-Fusion:](https://github.com/mohammedsalah98/pt_fusion/blob/main/thumbnail.png)](https://drive.google.com/file/d/17Gw1JwUtIPZwAZ9cj_FlGoW12sXYYHZk/view?usp=sharing)
 
 #
 You can find the PDF of the paper [here]().
