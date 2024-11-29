@@ -61,7 +61,7 @@ python test_depth.py --checkpoint /path/to/checkpoint --data_folder /path/to/dat
 - ``--data_folder``: Path to dataset
 
 #### Training:
-[Training Dataset](https://drive.google.com/drive/folders/1i5LGqa5_GO9XCohDdU-1M8rXYSEteuyP?usp=sharing)
+[Training Dataset](https://drive.google.com/drive/folders/1Jl89A_g1UQM2Ao0EAzqaVO-RcHwD9IgZ?usp=sharing)
 ```
 python train_segmentation.py --data_folder /path/to/dataset
 python train_depth.py --data_folder /path/to/dataset
