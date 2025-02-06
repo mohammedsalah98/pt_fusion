@@ -1,21 +1,22 @@
 # PT-Fusion
-## A Multi-Modal Attention Network for Segmentation and Depth Estimation of Subsurface Defects in Pulse Thermography
+## PT-Fusion: A Multi-Modal Attention Network for Defect Analysis in Pulse Thermography
 
-[![PT-Fusion:](https://github.com/mohammedsalah98/pt_fusion/blob/main/thumbnail.png)](https://drive.google.com/file/d/17Gw1JwUtIPZwAZ9cj_FlGoW12sXYYHZk/view?usp=sharing)
+[![PT-Fusion:](https://github.com/mohammedsalah98/pt_fusion/blob/main/thumb_nail.png)](https://drive.google.com/file/d/17Gw1JwUtIPZwAZ9cj_FlGoW12sXYYHZk/view?usp=sharing)
 
 #
-You can find the PDF of the paper [here]().
+You can find the PDF of the paper [here](https://arxiv.org/abs/2501.09994).
 If you use this code in an academic context please cite this publication:
 
 ```bibtex
-@ARTICLE{pt_fusion,
-  author={Salah, Mohammed and Werghi, Naoufel and Svetinovic, Davor and Abdulrahman, Yusra},
-  journal={IEEE Transactions on Instrumentation and Measurement}, 
-  title={PT-Fusion: A Multi-Modal Attention Network for Segmentation and Depth Estimation of Subsurface Defects in Pulse Thermography}, 
-  year={2024},
-  volume={},
-  pages={},
-  doi={}}
+@misc{pt_fusion,
+      title={Multi-Modal Attention Networks for Enhanced Segmentation and Depth Estimation of Subsurface Defects in Pulse Thermography}, 
+      author={Mohammed Salah and Naoufel Werghi and Davor Svetinovic and Yusra Abdulrahman},
+      year={2025},
+      eprint={2501.09994},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.09994}, 
+}
 ```
 
 ## Code Structure and IRT-PVC Dataset Outline:
